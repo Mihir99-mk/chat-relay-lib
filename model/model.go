@@ -7,6 +7,10 @@ type BaseError struct {
 	ErrorMsg interface{} `json:"errorMsg"`
 }
 
+func (b BaseError) Error() string {
+	return b.Message
+}
+
 type CustomError struct {
 	ErrorId  string `json:"errorId"`
 	Domain   string `json:"domain"`
