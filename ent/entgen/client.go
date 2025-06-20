@@ -9,13 +9,12 @@ import (
 	"log"
 	"reflect"
 
-	"lib/ent/entgen/migrate"
-
-	"lib/ent/entgen/user"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/user"
 )
 
 // Client is the client that holds all ent builders.

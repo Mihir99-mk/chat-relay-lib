@@ -6,13 +6,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"lib/ent/entgen/user"
 	"reflect"
 	"sync"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/user"
 )
 
 // ent aliases to avoid import conflicts in user's code.

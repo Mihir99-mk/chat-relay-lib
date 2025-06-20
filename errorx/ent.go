@@ -1,10 +1,11 @@
 package errorx
 
 import (
-	"lib/model"
 	"net/http"
 
-	"lib/ent/entgen"
+	"github.com/Mihir99-mk/chat-relay-lib/model"
+
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen"
 )
 
 type EntError struct {

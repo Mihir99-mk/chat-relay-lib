@@ -4,12 +4,12 @@ package entgen
 
 import (
 	"context"
-	"lib/ent/entgen/predicate"
-	"lib/ent/entgen/user"
 
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/predicate"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/user"
 )
 
 // UserDelete is the builder for deleting a User entity.

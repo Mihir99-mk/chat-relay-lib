@@ -1,9 +1,10 @@
 package errorx
 
 import (
-	"lib/model"
 	"log"
 	"net/http"
+
+	"github.com/Mihir99-mk/chat-relay-lib/model"
 
 	"github.com/labstack/echo/v4"
 )

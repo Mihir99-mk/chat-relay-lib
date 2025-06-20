@@ -1,9 +1,10 @@
 package errorx
 
 import (
-	"lib/model"
 	"log"
 	"net/http"
+
+	"github.com/Mihir99-mk/chat-relay-lib/model"
 
 	"github.com/go-oauth2/oauth2/v4/errors"
 )

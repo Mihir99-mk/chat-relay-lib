@@ -2,7 +2,7 @@
 
 package runtime
 
-// The schema-stitching logic is generated in lib/ent/entgen/runtime.go
+// The schema-stitching logic is generated in github.com/Mihir99-mk/chat-relay-lib/ent/entgen/runtime.go
 
 const (
 	Version = "v0.14.4"                                         // Version of ent codegen.

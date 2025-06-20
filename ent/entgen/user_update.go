@@ -6,12 +6,12 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"lib/ent/entgen/predicate"
-	"lib/ent/entgen/user"
 
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/predicate"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/user"
 )
 
 // UserUpdate is the builder for updating User entities.

@@ -5,7 +5,8 @@ package hook
 import (
 	"context"
 	"fmt"
-	"lib/ent/entgen"
+
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen"
 )
 
 // The UserFunc type is an adapter to allow the use of ordinary

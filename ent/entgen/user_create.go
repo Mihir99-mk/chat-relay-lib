@@ -5,10 +5,10 @@ package entgen
 import (
 	"context"
 	"fmt"
-	"lib/ent/entgen/user"
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/user"
 )
 
 // UserCreate is the builder for creating a User entity.

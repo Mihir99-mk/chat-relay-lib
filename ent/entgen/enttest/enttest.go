@@ -5,13 +5,12 @@ package enttest
 import (
 	"context"
 
-	"lib/ent/entgen"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen"
 	// required by schema hooks.
-	_ "lib/ent/entgen/runtime"
-
-	"lib/ent/entgen/migrate"
+	_ "github.com/Mihir99-mk/chat-relay-lib/ent/entgen/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/migrate"
 )
 
 type (

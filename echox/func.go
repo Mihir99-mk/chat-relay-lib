@@ -1,8 +1,9 @@
 package echox
 
 import (
-	"lib/errorx"
-	"lib/model"
+	"github.com/Mihir99-mk/chat-relay-lib/errorx"
+	"github.com/Mihir99-mk/chat-relay-lib/model"
+
 	"log"
 	"net/http"
 

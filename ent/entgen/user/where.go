@@ -3,9 +3,8 @@
 package user
 
 import (
-	"lib/ent/entgen/predicate"
-
 	"entgo.io/ent/dialect/sql"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/predicate"
 )
 
 // ID filters vertices based on their ID field.

@@ -5,14 +5,14 @@ package entgen
 import (
 	"context"
 	"fmt"
-	"lib/ent/entgen/predicate"
-	"lib/ent/entgen/user"
 	"math"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/predicate"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/user"
 )
 
 // UserQuery is the builder for querying User entities.

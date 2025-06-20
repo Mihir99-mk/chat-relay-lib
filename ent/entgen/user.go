@@ -4,11 +4,11 @@ package entgen
 
 import (
 	"fmt"
-	"lib/ent/entgen/user"
 	"strings"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/user"
 )
 
 // User is the model entity for the User schema.

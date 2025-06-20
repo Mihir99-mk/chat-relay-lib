@@ -6,11 +6,11 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"lib/ent/entgen/predicate"
 	"sync"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
+	"github.com/Mihir99-mk/chat-relay-lib/ent/entgen/predicate"
 )
 
 const (
