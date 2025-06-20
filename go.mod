@@ -1,4 +1,4 @@
-module lib
+module github.com/Mihir99-mk/chat-relay-lib
 
 go 1.24.1
 
